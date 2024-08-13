@@ -4,7 +4,7 @@ import tallalTest from '@api/tallal-test';
 export class collectionServices {
     async getCollectionList() {
         tallalTest.server('https://api-mainnet.magiceden.dev/v2');
-        return tallalTest.getCollections()
+        return tallalTest.getCollections({limit: 20})
             .then(({ data }) => {
                 return data
             })
