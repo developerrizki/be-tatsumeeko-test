@@ -29,8 +29,8 @@ To get started with this project, you'll need to have Node.js and npm (or yarn) 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/developerrizki/be-tatsumeeko-test.git
+   cd be-tatsumeeko-test
    ```
 
 2. Install the dependencies:
